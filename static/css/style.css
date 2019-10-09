@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
+.menubar {
+  height: 65px;
+  background: #07070b;
+}
+
+.menubar .logo {
+  line-height: 65px;
+  font-family: 'Big Shoulders Text', cursive;
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.menubar .menu {
+  padding-top: 8px;
+}
+
+.menubar a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #858586;
+}
+/*# sourceMappingURL=style.css.map */
