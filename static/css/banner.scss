@@ -1,1 +1,27 @@
 @import "./variables.scss";
+
+.banner{
+    background:linear-gradient(
+        rgba(0,0,0,0.7),rgba(0,0,0,0.7)
+    ),
+     url('../images/background.png') no-repeat center;
+    height:72vh;
+    padding-top:-20px;
+    h1{
+        @include RlwBold(30px, white);
+        margin-top:220px;
+        span{
+            color: #a21f37;
+        }
+    }
+    p{
+        @include RlwReg(14px, white);
+        margin:50px 0;
+    }
+    .button-default{
+        background: black;
+        border-radius:0;
+        @include RlwMed(20px, white);
+        margin-left:20px;
+    }
+}

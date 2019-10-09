@@ -1,2 +1,38 @@
 @import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/background.png") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/background.png") no-repeat center;
+  height: 72vh;
+  padding-top: -20px;
+}
+
+.banner h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  margin-top: 220px;
+}
+
+.banner h1 span {
+  color: #a21f37;
+}
+
+.banner p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  margin: 50px 0;
+}
+
+.banner .button-default {
+  background: black;
+  border-radius: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
 /*# sourceMappingURL=banner.css.map */
