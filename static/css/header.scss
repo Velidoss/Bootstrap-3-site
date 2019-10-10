@@ -8,11 +8,17 @@
         @include LogoFont(26px, white);
         letter-spacing: 2px;
     }
+    .navbar-default{
+        background:#07070b;
+        border:none;
+    }
     .menu{
         padding-top:8px;  
-        }            
+        } 
+          
         a{
          @include RlwReg(18px, #858586);
+         padding:15px 5px;
         }
 
 }

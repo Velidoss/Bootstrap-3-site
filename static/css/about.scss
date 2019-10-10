@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+.about{
+    .row{
+        margin-bottom:100px;
+    }
+    
+    h2{
+        padding:100px 0 40px 0;
+        @include RlwBold(30px, black);
+        span{
+            color:$textHeading;
+        }
+    }
+    .about-heading p{
+        @include RlwBold(16px, $textColor);
+        
+    }
+    .panel, .panel-default{
+        margin-bottom:0;
+    }
+    .pannel-group{
+        padding-top:40px;
+    }
+    .about-image-1{
+        z-index:3;
+    }
+    hr{
+        border:1px solid black;
+    }
+    .feature{
+        i, h4, p{
+            padding-bottom:30px;
+        }
+
+        i{
+            font-size:30px;
+            
+            &:hover{
+                color:$textHeading;
+            }
+        }
+        h4{
+            @include RlwMed(20px, black);
+        }
+    }
+}

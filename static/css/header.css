@@ -13,6 +13,11 @@
   letter-spacing: 2px;
 }
 
+.menubar .navbar-default {
+  background: #07070b;
+  border: none;
+}
+
 .menubar .menu {
   padding-top: 8px;
 }
@@ -22,5 +27,6 @@
   font-weight: 400;
   font-size: 18px;
   color: #858586;
+  padding: 15px 5px;
 }
 /*# sourceMappingURL=header.css.map */

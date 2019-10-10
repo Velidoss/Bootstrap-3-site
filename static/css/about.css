@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
+.about .row {
+  margin-bottom: 100px;
+}
+
+.about h2 {
+  padding: 100px 0 40px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+
+.about h2 span {
+  color: #a21f37;
+}
+
+.about .about-heading p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+.about .panel, .about .panel-default {
+  margin-bottom: 0;
+}
+
+.about .pannel-group {
+  padding-top: 40px;
+}
+
+.about .about-image-1 {
+  z-index: 3;
+}
+
+.about hr {
+  border: 1px solid black;
+}
+
+.about .feature i, .about .feature h4, .about .feature p {
+  padding-bottom: 30px;
+}
+
+.about .feature i {
+  font-size: 30px;
+}
+
+.about .feature i:hover {
+  color: #a21f37;
+}
+
+.about .feature h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+/*# sourceMappingURL=about.css.map */

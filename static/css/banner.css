@@ -35,4 +35,9 @@
   color: white;
   margin-left: 20px;
 }
+
+.banner .button-default:hover {
+  color: white;
+  background-color: #ee183f;
+}
 /*# sourceMappingURL=banner.css.map */

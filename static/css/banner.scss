@@ -11,7 +11,7 @@
         @include RlwBold(30px, white);
         margin-top:220px;
         span{
-            color: #a21f37;
+            color: $textHeading;
         }
     }
     p{
@@ -23,5 +23,9 @@
         border-radius:0;
         @include RlwMed(20px, white);
         margin-left:20px;
+        &:hover{
+            color:white;
+            background-color:#ee183f;
+        }
     }
 }
