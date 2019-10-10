@@ -1,0 +1,39 @@
+@import './variables.scss';
+
+.product{
+    padding-top:100px;
+    
+    .row{
+        margin-bottom:100px;
+    }
+    
+    h2{
+        @include RlwBold(30px, white);
+        span{
+            color:$textHeading;
+        }
+    }
+    .heading-text p{
+        @include RlwBold(16px, $textColor);
+    }
+    .product-description{
+        padding-top:150px;
+        p{
+        @include RlwMed(20px, black);
+        border:1px solid rgb(202, 195, 195);
+        padding:15px 50px;
+        }
+    }
+    .btn-default{
+        background: black;
+        border-radius:0;
+        @include RlwMed(20px, white);
+        margin-left:20px;
+        &:hover{
+            color:white;
+            background-color:#ee183f;
+        }
+    }
+
+    
+}

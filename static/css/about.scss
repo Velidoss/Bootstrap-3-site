@@ -12,7 +12,7 @@
             color:$textHeading;
         }
     }
-    .about-heading p{
+    .heading-text p{
         @include RlwBold(16px, $textColor);
         
     }

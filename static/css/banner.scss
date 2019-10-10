@@ -15,7 +15,7 @@
         }
     }
     p{
-        @include RlwReg(14px, white);
+        @include RlwBold(14px, white);
         margin:50px 0;
     }
     .button-default{

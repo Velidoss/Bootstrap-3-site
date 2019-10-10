@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway:400,500,700&display=swap");
 .menubar {
   height: 65px;
   background: #07070b;
@@ -54,7 +56,7 @@
 
 .banner p {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   color: white;
   margin: 50px 0;
@@ -91,7 +93,7 @@
   color: #a21f37;
 }
 
-.about .about-heading p {
+.about .heading-text p {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -131,5 +133,82 @@
   font-weight: 500;
   font-size: 20px;
   color: black;
+}
+
+.portfolio {
+  padding-top: 100px;
+  background: #262626;
+}
+
+.portfolio .row {
+  margin-bottom: 100px;
+}
+
+.portfolio h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.portfolio a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+.product {
+  padding-top: 100px;
+}
+
+.product .row {
+  margin-bottom: 100px;
+}
+
+.product h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.product h2 span {
+  color: #a21f37;
+}
+
+.product .heading-text p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #5c5c5c;
+}
+
+.product .product-description {
+  padding-top: 150px;
+}
+
+.product .product-description p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  border: 1px solid #cac3c3;
+  padding: 15px 50px;
+}
+
+.product .btn-default {
+  background: black;
+  border-radius: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+
+.product .btn-default:hover {
+  color: white;
+  background-color: #ee183f;
 }
 /*# sourceMappingURL=style.css.map */
