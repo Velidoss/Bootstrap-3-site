@@ -1,0 +1,22 @@
+@import "./_variables.scss";
+
+.heading{background-color: $bgColor;}
+.top-nav{
+    
+    .logo{
+        @include LogoFont(26px, white);
+    }
+    .menu{
+        list-style:none;
+        display: flex;
+        padding:0;
+        li{
+            margin-right: 45px;
+            a{
+                text-transform: uppercase;
+                text-decoration: none;
+               @include RlwReg(18px, $menuTextColor);
+            }
+        }
+    }
+}
